@@ -22,7 +22,7 @@ document.getElementById("siBtn").addEventListener("click", function () {
 
   // Mostrar el mensaje específico
   document.getElementById("messageContainer").style.display = "block";
-  document.getElementById("messageContainer").innerHTML = "Enga ya esta";
+  document.getElementById("messageContainer").innerHTML = "¡Y eso es todo, amigos! 🎉";
 
   // Mostrar otro gif después de 3 segundos
   setTimeout(function () {
@@ -57,7 +57,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
 
 
       // Modificar el botón "No"
-      document.getElementById("noBtn").innerHTML = "Como que no";
+      document.getElementById("noBtn").innerHTML = "¿Ah, sí? 🤨";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "40px";
@@ -70,7 +70,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 1:
       // Segunda vez haciendo clic en "No"
 
-      document.getElementById("noBtn").innerHTML = "oyeeeeeee!";
+      document.getElementById("noBtn").innerHTML = "¡Eh, vamos! 😒";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
       document.getElementById("sadGifContainer").style.display = "none";
       document.getElementById("sadGifContainer2").style.display = "block";
@@ -78,13 +78,13 @@ document.getElementById("noBtn").addEventListener("click", function () {
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "50px";
       document.getElementById("siBtn").style.padding = "30px 50px ";
-      document.getElementById("siBtn").innerHTML = "PULSAMEEEEE"
+      document.getElementById("siBtn").innerHTML = "¡Dale aquí! 💥"
 
       noButtonState++;
       break;
 
     case 2:
-      document.getElementById("noBtn").innerHTML ="PARA YAAAAAAAAAA";
+      document.getElementById("noBtn").innerHTML ="¡Basta ya, por favor! 🙏";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
       document.getElementById("sadGifContainer").style.display = "none";
       document.getElementById("sadGifContainer2").style.display = "none";
@@ -93,14 +93,14 @@ document.getElementById("noBtn").addEventListener("click", function () {
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "60px";
       document.getElementById("siBtn").style.padding = "40px 60px";
-      document.getElementById("siBtn").innerHTML = "MIRA QUE ERA BROMA"
+      document.getElementById("siBtn").innerHTML = "¡Solo era una broma! 😜"
       
 
       noButtonState++;
       break;
 
     case 3:
-      document.getElementById("noBtn").innerHTML = "AL FINAL ME ENFADO";
+      document.getElementById("noBtn").innerHTML = "¡Voy a perder la paciencia! 😤";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       // Hacer que el botón "Sí" crezca
@@ -111,7 +111,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 4:
-      document.getElementById("noBtn").innerHTML = "no me pulses:(";
+      document.getElementById("noBtn").innerHTML = "Mejor no me toques... 🥺";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       // Hacer que el botón "Sí" crezca
@@ -122,7 +122,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 5:
-      document.getElementById("noBtn").innerHTML = "VENGA DE VERDAD";
+      document.getElementById("noBtn").innerHTML = "De verdad, ¡para ya! 😡";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       // Hacer que el botón "Sí" crezca
@@ -132,7 +132,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 6:
-      document.getElementById("noBtn").innerHTML = "NO ME DES!";
+      document.getElementById("noBtn").innerHTML = "¡¡Ni lo pienses! 🚨! ⚠️";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       // Hacer que el botón "Sí" crezca
@@ -143,7 +143,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 7:
-      document.getElementById("noBtn").innerHTML = "NO ME DESSS";
+      document.getElementById("noBtn").innerHTML = "Te lo estoy advirtiendo... 🔥";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       // Hacer que el botón "Sí" crezca
@@ -154,7 +154,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 8:
-      document.getElementById("noBtn").innerHTML = "ESTE NO ESSSS";
+      document.getElementById("noBtn").innerHTML = "¡Este no es el botón correcto! 🚫";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "120px";
@@ -165,7 +165,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       break;
 
     case 9:
-      document.getElementById("noBtn").innerHTML = "PARAAAAAA";
+      document.getElementById("noBtn").innerHTML = "¡Ya es suficiente! 🛑";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       // Hacer que el botón "Sí" crezca
@@ -177,7 +177,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       break;
 
     case 10:
-      document.getElementById("noBtn").innerHTML ="NI SE TE OCURRA";
+      document.getElementById("noBtn").innerHTML ="¡Ni lo pienses! 🚨";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "140px";
@@ -188,7 +188,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       break;
     
     case 11:
-      document.getElementById("noBtn").innerHTML = "NOOOOOOOOOOOOOOOOO";
+      document.getElementById("noBtn").innerHTML = "¡Ya basta, por favor! 😫";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("sadGifContainer").style.display = "none";
